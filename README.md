@@ -1,75 +1,66 @@
-**GoSarajevo** je pametna web aplikacija koja korisnicima pruža personalizovani vodič kroz Sarajevo. Cilj sistema je olakšati snalaženje u gradu i omogućiti brz pristup relevantnim informacijama — od atrakcija i događaja do praktičnih informacija i planiranja boravka.
+# GoSarajevo
+
+**GoSarajevo** is a smart web application that provides users with a personalized guide to Sarajevo. The goal of the system is to make navigating the city easier and allow quick access to relevant information—from attractions and events to practical information and trip planning.
 
 ---
 
-## Razvojni tim:
+## Development Team
 - Amina Đuderija
 - Amna Hrustić
 - Hana Helać
 - Adna Mujić
-  
----
-
-## Glavne funkcionalnosti
-
-### Pregled aktuelnih događaja
-- pregled sportskih, kulturnih i zabavnih događaja  
-- filtriranje po vremenu i popularnosti  
-
-### Atrakcije i lokacije
-- turističke atrakcije  
-- skrivene lokacije  
-- restorani, kafići i barovi  
-
-### Recenzije
-- korisnici mogu:
-  - ostavljati recenzije  
-  - ocjenjivati mjesta  
-  - pregledati iskustva drugih  
-
-### Pametno planiranje boravka
-- unos datuma dolaska i odlaska  
-- unos preferencija  
-- generisanje personalizovanog plana  
-
-### Praktične informacije
-- hitne službe  
-- apoteke i bolnice  
-- javni prevoz i taxi  
-
-### Registracija i prijava
-- kreiranje korisničkog naloga  
-- pristup personalizovanim funkcijama  
-
-### Newsletter
-- obavijesti o događajima i novostima  
-- personalizovani sadržaj  
 
 ---
 
-## Tipovi korisnika
+## Main Features
 
-- **Gost (neregistrovani korisnik)**
-  - pregled sadržaja  
-  - osnovne informacije  
+### Overview of Current Events
+- Browse sports, cultural, and entertainment events.
+- Filter events by time and popularity.
 
-- **Registrovani korisnik**
-  - recenzije  
-  - planiranje boravka  
-  - personalizovane preporuke  
+### Attractions and Locations
+- Tourist attractions and landmarks.
+- Hidden gems and local spots.
+- Restaurants, cafes, and bars.
 
-- **Administrator**
-  - upravljanje sadržajem sistema  
+### Reviews & Ratings
+- Leave reviews and rate places.
+- Browse experiences and feedback from other users.
 
-- **Operater**
-  - kreiranje i slanje newslettera  
+### Smart Stay Planning
+- Input arrival and departure dates.
+- Specify personal preferences.
+- Generate a customized itinerary for your stay.
+
+### Practical Information
+- Emergency services contact info.
+- Pharmacies and hospitals.
+- Public transportation and taxi services.
+
+### Authentication & Authorization
+- User registration and secure login.
+- Access to personalized features and recommendations.
+
+### Newsletter System
+- Updates on upcoming events and news.
+- Personalized content delivery.
 
 ---
 
-## Tehnologije
-* C# / ASP.NET Core MVC
-* Entity Framework Core
-* HTML, CSS, Bootstrap, JavaScript
+## User Roles
 
-## Dokumentacija
-Arhitektonski dijagrami i dokumentacija nalaze se u `/docs` folderu.
+- **Guest (Unregistered User):** Browse content and access basic city information.
+- **Registered User:** Leave reviews, plan stays, and receive personalized recommendations.
+- **Administrator:** Manage system content and data.
+- **Operator:** Create and send newsletters.
+
+---
+
+## Technologies
+- **Backend:** C#, ASP.NET Core MVC, Entity Framework Core, SQL
+- **Frontend:** HTML5, CSS3, Bootstrap, JavaScript
+
+---
+
+## Documentation
+Architectural diagrams and additional project documentation can be found in the [`/docs`](./docs) folder.
